@@ -1,0 +1,13 @@
+read_verilog Registers.v
+read_verilog Mux2_1.v
+read_verilog Mux4_1.v
+read_verilog Adder.v
+read_verilog Counter.v
+read_verilog constRom.v
+read_verilog Controller.v
+read_verilog Datapath.v
+read_verilog TopModule.v
+
+hierarchy -check -top TopModule
+synth -lut 2
+write_verilog -norename -noattr -noexpr -nodec synth_output.v
