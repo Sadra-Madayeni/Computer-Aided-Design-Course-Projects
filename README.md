@@ -8,7 +8,7 @@ This repository hosts a collection of advanced digital design projects implement
 
 ---
 
-## 📂 Project Descriptions
+## 📂  Project Descriptions
 
 ### 🔹 CA1: Hash Generator (RTL & LFSR Design)
 **Objective:** Implementation of a 128-bit Hash Generator utilizing a 64-round compression function and a custom Pseudo-Random Number Generator (PRNG).
